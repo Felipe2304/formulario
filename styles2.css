@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recover-password {
+  color: #3f3d56;
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+
+.text-information {
+  color: #5a6256;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 57px;
+}
+.email-recovery {
+  display: flex;
+  flex-direction: column;
+}
+.description{
+    margin-bottom:6px;
+    color: #3f3d56;
+    font-size: 14px;
+    font-weight:400;
+}
+
+#e-mail {
+  width: 396px;
+  height: 47px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 14px;
+  margin-bottom:40px;
+}
+
+.link-button {
+  background-color: #3f3d56;
+  color: #ffffff;
+  width: 396px;
+  height: 47px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  transition-duration: 300ms;
+  border: none;
+  margin-bottom: 45px;
+}
+.link-button:hover {
+  background-color: #3f3d5667;
+  color: #3f3d56;
+  border: 1px solid #3f3d56;
+}
