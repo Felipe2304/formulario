@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 396px;
+  height: 100vh;
+}
+
+.pricipal-title {
+  color: #3f3d56;
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.register {
+  width: 396px;
+  height: 47px;
+  border: 1px solid #3f3d56;
+  padding-left: 6px;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.register:hover {
+  background-color: #3f3d562e;
+  transition-duration: 300ms;
+}
+.name-box {
+  margin-bottom: 20px;
+}
+.register-box {
+  margin-bottom: 50px;
+}
+
+.password-box {
+  margin-bottom: 28px;
+}
+
+.text-information {
+  color: #3f3d56;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.selections-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.date-box {
+  height: 47px;
+  width: 170px;
+  padding-left: 4px;
+  box-sizing: border-box;
+}
+.select {
+  height: 47px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4px;
+  box-sizing: border-box;
+}
+
+.gender-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  margin-bottom: 6px;
+  color: #3f3d56;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+#checkbox {
+  margin-right: 10px;
+}
+
+.button-register {
+  width: 396px;
+  height: 47px;
+  background-color: #3f3d56;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition-duration: 300ms;
+  border: 1px solid #3f3d56;
+  border-radius: 10px;
+  margin-bottom: 28px;
+}
+.button-register:hover {
+  background-color: #3f3d562e;
+  color: #3f3d56;
+}
+
+.enter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

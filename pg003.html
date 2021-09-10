@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/styles3.css" />
+    <title>Faça sua conta !</title>
+  </head>
+  <body>
+    <form>
+      <section class="container">
+        <h1 class="pricipal-title">Faça seu cadastro</h1>
+        <div class="wrapper">
+          <label for="name" class="text-information">Nome completo</label>
+          <input
+            type="name"
+            placeholder="Digite seu nome "
+            class="register name-box"
+          />
+        </div>
+        
+        <div class="selection-box">
+          <div class="selections-wrapper">
+            <label for="date" class="text-information"
+              >Data de nascimento</label
+            >
+            <input
+              type="date"
+              placeholder="Digite sua data de nascimento"
+              class="date-box"
+            />
+          </div>
+          <div class="selections-wrapper">
+            <label for="country">país</label>
+            <select class="select" placeholder="selecione um país">
+              <option disabled selected> selecionar país</option>
+              <option value="brasil">Brasil</option>
+              <option value="argentina">Argentina</option>
+              <option value="uruguai">Uruguai</option>
+            </select>
+          </div>
+        </div>
+
+        <label for="text" >Genero: </label>
+        <div class="gender-box">
+          <div class="gender">
+            <input type="radio" name="radio" id="fem" />
+            <label for="radio"> feminino</label>
+          </div>
+          <div class="gender">
+            <input type="radio" name="radio" id="masc" />
+            <label for="radio"> masculino</label>
+          </div>
+          <div class="gender">
+            <input type="radio" name="radio" id="null" />
+            <label for="radio"> não declarar</label>
+          </div>
+        </div>
+
+        <div class="register-wrapper">
+          <label for="e-mail" class="text"> E-mail</label>
+          <input
+            type="e-mail"
+            id="e-mail"
+            placeholder="Digite seu e-mail"
+            class="register register-box"
+          />
+        </div>
+
+        <div class="register-wrapper">
+          <label for="password" class="text"> Senha</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Digite sua senha"
+            required
+            class="register register-box"
+          />
+        </div>
+
+        <div class="register-wrapper">
+          <label for="password" class="text"> Confirme sua senha </label>
+          <input
+            type="password"
+            id="password-confirm"
+            placeholder="confirme sua senha "
+            class="register password-box"
+          />
+        </div>
+        <div class="condition">
+          <input type="checkbox" id="checkbox" />
+          <span
+            >aceito os <a href="#"> termos e condições</a> concordo com as
+            <a href="#">politicasde privacidade</a>do Hall to code</span
+          >
+        </div>
+        <button type="submit" class="button-register">Cadastrar</button>
+        <span class="enter"
+          >já tem uma conta na hall to code? <a href="#">Entre agora</a></span
+        >
+      </section>
+    </form>
+  </body>
+  <!-- <a href="/html/index.html" rel="prev">voltar para a pagina de login</a> -->
+</html>
