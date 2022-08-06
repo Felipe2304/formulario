@@ -1,0 +1,86 @@
+.form-register-pg3 {
+  margin: auto;
+  max-width: 39.6rem;
+}
+
+.box-register-name {
+  margin-bottom: 2.4rem;
+}
+
+.box-register-date-pais {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #3f3f40;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+}
+
+#date {
+  width: 17rem;
+  height: 4.7rem;
+  border: 1px solid var(--input-color);
+  color: var(--input-color);
+  padding-left: 1.4rem;
+}
+
+#pais {
+  width: 20.8rem;
+  height: 4.7rem;
+  border: 1px solid var(--input-color);
+  color: var(--input-color);
+  padding-left: 1.4rem;
+}
+
+.register-genre {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.2rem;
+}
+
+.genre-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.genre {
+  display: flex;
+  align-items: center;
+}
+
+.genre input {
+  margin-right: 0.6rem;
+}
+
+.genre span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #323730;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.8rem;
+}
+
+.terms input {
+  margin-right: 0.6rem;
+}
+
+.button-register {
+  width: 100%;
+  margin-bottom: 2.8rem;
+}

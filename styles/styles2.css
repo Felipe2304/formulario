@@ -1,0 +1,23 @@
+.header {
+  margin: auto;
+  width: 80%;
+}
+.sub-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2.8rem;
+}
+
+.form-register-pg2 {
+  max-width: 39.6rem;
+  margin: auto;
+}
+
+.button-recover {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.link-return {
+  margin: 30%;
+}
